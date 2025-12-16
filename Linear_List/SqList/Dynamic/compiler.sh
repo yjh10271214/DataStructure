@@ -1,0 +1,1 @@
+g++ Dynamic_SqList.cpp -o Dynamic_SqList.bin
