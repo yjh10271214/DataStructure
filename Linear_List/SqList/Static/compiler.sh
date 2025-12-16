@@ -1,0 +1,1 @@
+g++ Static_SqList.cpp -o Static_SqList.bin
