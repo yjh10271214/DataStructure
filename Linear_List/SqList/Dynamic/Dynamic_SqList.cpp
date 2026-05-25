@@ -158,7 +158,7 @@ bool ListInsertElem(SqList &L, int elem, int pos) { //Insert an element into the
     return true; //Insertion successful
 }
 
-bool ListChageElem(SqList &L, int pos, ElemType elem) { //Change an element in the list
+bool ListChangeElem(SqList &L, int pos, ElemType elem) { //Change an element in the list
     if (pos < 1 || pos > L.length) {
         printf("change error: Invalid position to change element!!!\n");
         return false;
